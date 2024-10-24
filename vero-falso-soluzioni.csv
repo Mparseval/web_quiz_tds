@@ -1,0 +1,140 @@
+FALSO;La traccia dello Jacobiano di un sistema del terzo ordine a tempo continuo valutato in un equilibrio in corrispondenza di una biforcazione di Hopf è nulla.
+VERO;Il determinante dello Jacobiano di un sistema del terzo ordine a tempo continuo valutato in un equilibrio in corrispondenza di una biforcazione nodo-sella è nullo.
+FALSO, ne può avere infiniti;Un sistema lineare non può avere più di un equilibrio.
+FALSO;La mappa di Poincaré di un sistema a tempo continuo di ordine n è un sistema a tempo discreto di ordine (n+1).
+VERO;Un sistema non lineare del secondo ordine a tempo continuo può avere un equilibrio stabile, una sella e un ciclo.
+VERO;La dimensione della varietà stabile di una sella di un sistema del terzo ordine può essere maggiore della dimensione della sua varietà instabile.
+VERO;La varietà centro di un equilibrio che sta subendo una biforcazione transcritica ha dimensione 1.
+VERO;Un invariante può non essere un attrattore.
+FALSO;Un attrattore può non essere un invariante.
+FALSO, stima la dimensione dell'attrattore;La regola di Kaplan-Yorke serve per stimare il primo esponente di Lyapunov di uno strano attrattore.
+VERO;Se la divergenza di un sistema a tempo continuo è positiva ovunque il sistema non ammette attrattori.
+VERO;Possono esistere sistemi senza attrattori.
+FALSO, necessario per sistemare i bacini di attrazione;Un sistema non lineare del primo ordine a tempo continuo può avere due equilibri stabili e nessun equilibrio instabile.
+VERO;Il teorema di Andronov specifica la stabilità dei cicli che nascono per biforcazione omoclina nei sistemi di ordine 2 a tempo continuo.
+FALSO;Un sistema lineare può avere un numero infinito numerabile di equilibri.
+FALSO, Neimark-Sacker;Le lingue di Arnold riguardano il fenomeno del raddoppio di periodo.
+VERO;Una biforcazione flip può essere interpretata come collisione tra cicli.
+FALSO;Un sistema non lineare del secondo ordine a tempo continuo non ammette biforcazione transcritica di cicli.
+FALSO;Un sistema a tempo discreto del primo ordine non può avere cicli instabili.
+FALSO;Un sistema a tempo discreto del primo ordine ammette biforcazioni di Neimark-Sacker.
+FALSO;La biforcazione omoclina può non coinvolgere cicli.
+VERO;La varietà centro di un equilibrio che sta avendo una biforcazione di Hopf ha dimensione 2.
+VERO;Un insieme invariante può essere un attrattore.
+FALSO;L'insieme invariante della mappa a "ferro di cavallo" contiene traiettorie quasi-periodiche.
+FALSO;La traccia dello Jacobiano di un sistema del terzo ordine a tempo continuo valutato in un equilibrio in corrispondenza di una biforcazione di Hopf è negativa.
+VERO;Il ciclo che nasce per biforcazione di Hopf ha generalmente periodo finito.
+VERO;Il determinante dello Jacobiano di un sistema del primo ordine a tempo discreto valutato in un equilibrio in corrispondenza di una biforcazione nodo-sella è nullo.
+VERO;La biforcazione nodo-sella ha generalmente co-dimensione 1.
+FALSO;A partire da condizioni iniziali vicine ad un attrattore, la traiettoria del sistema resta vicino all'attrattore stesso e converge, sui tempi lunghi, ad esso.
+VERO;In un sistema lineare un equilibrio asintoticamente stabile è anche globalmente stabile.
+FALSO, tempo discreto;La mappa di Poincaré di un sistema a tempo continuo di ordine n è un sistema a tempo continuo di ordine (n-1).
+FALSO;Nei sistemi a tempo continuo, la somma dei moltiplicatori di un ciclo è sempre positiva.
+VERO, non stazionari = caotici;Nei sistemi a tempo continuo, gli attrattori non stazionari hanno sempre un esponente di Lyapunov nullo.
+FALSO, negativa, il primo è positivo;La somma degli esponenti di Lyapunov di un attrattore caotico è positiva.
+VERO;I punti dell'insieme di Cantor sono in corrispondenza biunivoca con i numeri reali.
+VERO;Un ciclo stabile di un sistema di ordine due a tempo continuo può avere al suo interno una sella.
+FALSO;La biforcazione tangente di cicli è una biforcazione globale.
+VERO;La biforcazione tangente di cicli è una biforcazione locale.
+VERO;La biforcazione flip può essere catastrofica.
+FALSO;La biforcazione flip non può essere catastrofica.
+FALSO;La biforcazione flip riguarda i tori.
+FALSO;Se per un sistema del terzo ordine non si presenta una biforcazione di Neimark-Sacker, la divergenza non deve cambiare segno.
+VERO;Una biforcazione omoclina in cui gli autovalori più vicini all'asse immaginario sono complessi coniugati presenta dinamiche a "ferro di cavallo" su un'opportuna sezione di Poincaré vicino alla sella.
+VERO;La biforcazione eteroclina è una biforcazione globale.
+FALSO;La biforcazione eteroclina è una biforcazione locale.
+FALSO;Un sistema lineare a tempo discreto x(k+1) = A*x(k) è stabile se tutti gli autovalori di A hanno parte reale negativa.
+FALSO;La biforcazione tangente di cicli esiste solo in sistemi di dimensione n>2.
+FALSO;Un sistema del II ordine a tempo continuo può avere solo un numero pari di equilibri stabili.
+VERO;Un sistema del II ordine a tempo continuo con due soli equilibri, entrambi gli equilibri possono essere selle.
+FALSO;La biforcazione omoclina è locale.
+FALSO;Non esistono equilibri instabili.
+VERO;Se la divergenza di un sistema a tempo continuo è positiva ovunque il sistema non ammette comportamento caotico.
+FALSO;Non esistono sistemi senza attrattori.
+FALSO;Un sistema a tempo discreto del primo ordine non può avere cicli instabili.
+VERO;Un sistema non lineare del terzo ordine può avere uno strano attrattore.
+VERO;Un sistema non lineare del secondo ordine può avere un equilibrio stabile, una sella e un ciclo.
+FALSO;Un sistema non lineare del primo ordine può avere due equilibri stabili e nessun equilibrio instabile.
+VERO;Un sistema non lineare può avere più di un equilibrio.
+FALSO, intende numeri finiti;Un sistema lineare può avere più di un equilibrio.
+FALSO;Esistono biforcazioni nodo-sella non catastrofiche.
+FALSO;Un sistema del II ordine a tempo continuo può avere solo due equilibri entrambi stabili.
+FALSO;La biforcazione Neimark-Sacker può essere presente anche nei sistemi a tempo discreto del I ordine.
+FALSO;La biforcazione di Hopf non può essere non catastrofica.
+VERO;La biforcazione di Hopf può essere non catastrofica.
+FALSO;Nei sistemi del quarto ordine non possono esistere cicli sella.
+FALSO;La mappa di Poincaré di un sistema di ordine n è un sistema a tempo discreto di ordine n.
+FALSO;Un nodo stabile e un fuoco stabile non sono topologicamente equivalenti.
+VERO;Un sistema del secondo ordine in cui tutti gli equilibri sono di tipo sella non può avere biforcazioni omocline.
+VERO;La biforcazione cusp ha genericamente co-dimensione 2.
+FALSO;Se la divergenza di un sistema del terzo ordine non cambia mai segno possono esserci biforcazioni Neimark-Sacker.
+VERO;La somma degli esponenti di Lyapunov di un attrattore caotico è negativa.
+FALSO;Nei sistemi lineari un equilibrio asintoticamente stabile può non essere globalmente stabile.
+FALSO;Lo Jacobiano di un sistema è una matrice m x n con m diverso da n.
+FALSO;La biforcazione flip può esserci solo se la dimensione n del sistema è pari.
+VERO;Un ciclo in un sistema del secondo ordine può subire una biforcazione fold.
+FALSO, vale solo in n=2;Se la divergenza di un sistema del terzo ordine è negativa ovunque allora non esistono cicli.
+VERO;La forma normale di una biforcazione transcritica ha dimensione 1.
+FALSO;Gli equilibri coinvolti in una biforcazione nodo-sella devono necessariamente essere una sella e un nodo.
+FALSO;Un sistema lineare non può avere più di un equilibrio.
+VERO;Un sistema lineare può avere cicli.
+VERO;Un equilibrio di un sistema lineare che è asintoticamente stabile è anche globalmente stabile.
+FALSO;La somma degli esponenti di Lyapunov di un attrattore può essere positiva.
+FALSO;La matrice dello Jacobiano di un equilibrio di un sistema non lineare può essere rettangolare.
+VERO;Il fenomeno di isteresi richiede biforcazioni catastrofiche.
+FALSO;Una biforcazione nodo-sella può essere non catastrofica.
+FALSO;La biforcazione di Hopf accade solo in sistemi del secondo ordine.
+VERO;La biforcazione di Hopf riguarda un ciclo di ampiezza evanescente.
+VERO;La biforcazione di Neimark-Sacker può accadere in sistemi del secondo ordine a tempo discreto.
+FALSO;La biforcazione di Neimark-Sacker è una collisione tra tori.
+VERO;Un equilibrio instabile può essere attrattore.
+FALSO;Tutti i sistemi dinamici hanno attrattori.
+FALSO;Nei sistemi del secondo ordine non ci possono essere cicli sella.
+FALSO;La forma normale di una biforcazione transcritica è x'=p+x^2.
+VERO;Il teorema di Shilnikov è relativo alle biforcazioni omocline.
+FALSO;La matrice A di un sistema lineare x'= Ax può essere rettangolare.
+FALSO;Un sistema del secondo ordine tempo continuo può avere solo due equilibri entrambi stabili.
+FALSO;La biforcazione di Neimark-Sacker può accadere in sistemi del primo ordine a tempo discreto.
+FALSO;Le biforcazioni di Neimark-Sacker sono solo biforcazioni catastrofiche.
+VERO;Una biforcazione di Hopf può essere non catastrofica.
+FALSO;Un equilibrio asintoticamente stabile può essere anche instabile.
+FALSO;Non ci sono sistemi senza attrattori.
+FALSO, intende un solo equilibrio sempre;Un sistema con un solo equilibrio può subire biforcazioni forcone.
+FALSO;Una biforcazione forcone ha sempre co-dimensione 1.
+FALSO;In un sistema del quarto ordine non ci possono essere cicli sella.
+FALSO;Una biforcazione flip è caratterizzata da una coppia di autovalori complessi coniugati con modulo unitario.
+FALSO;La forma normale di una biforcazione transcritica è x'=px.
+VERO;Sistemi a tempo discreto possono essere non reversibili.
+VERO;Il teorema di Shilnikov riguarda le biforcazioni omocline.
+VERO;Uno strano attrattore può avere due esponenti di Lyapunov nulli.
+VERO;Uno strano attrattore può avere due esponenti di Lyapunov positivi.
+VERO;La dimensione di un attrattore caotico di un sistema discreto reversibile può essere più di 2.
+FALSO;Un equilibrio sella può avere solo la varietà stabile.
+FALSO;Un equilibrio sella può non avere la varietà stabile.
+VERO;Un sistema del secondo ordine a tempo discreto può subire una biforcazione di Neimark-Sacker.
+FALSO;Se la divergenza di un sistema del terzo ordine è ovunque negativa il sistema non può avere andamenti caotici.
+FALSO;Se la divergenza di un sistema del secondo ordine a tempo continuo cambia segno il sistema può avere comportamento caotico.
+FALSO;Nei sistemi del terzo ordine non ci possono essere cicli sella.
+FALSO;Nei sistemi del primo ordine posso avere biforcazioni eterocline.
+VERO;Nei sistemi del primo ordine posso avere attrattori multipli.
+FALSO;La dimensione di un insieme frattale può essere un numero intero.
+FALSO;Il teorema di Andronov riguarda i tori.
+VERO;La divergenza di un sistema x'=f(x) può dipendere da x.
+FALSO, è x'=p+x^2;La forma normale della biforcazione nodo-sella è x'=px.
+VERO;Le biforcazioni Neimark-Sacker possono essere non catastrofiche.
+VERO;Il teorema di Andronov si può applicare solo se la dimensione n del sistema è 2.
+FALSO;Le biforcazioni globali si possono trovare valutando lo Jacobiano del sistema nei punti di equilibrio.
+FALSO;Le biforcazioni che riguardano cicli sono sempre globali.
+FALSO;Le biforcazioni che riguardano tori sono sempre globali.
+FALSO;Un attrattore può essere aperto.
+FALSO;La regola di Kaplan-Yorke serve per calcolare gli esponenti di Lyapunov di un attrattore caotico.
+FALSO;Un sistema dinamico non può avere traiettorie molto differenti se le condizioni iniziali da cui partono sono molto vicine.
+VERO;Una famiglia di insiemi x'=f(x,p) ha un solo attrattore per ogni valore del parametro p e per p=p1 l'attrattore è un equilibrio, mentre per p=p2>p1 l'attrattore è caotico. Nell'intervallo [p1,p2] può esserci un'unica biforcazione locale di equilibri.
+VERO;Una famiglia di insiemi x'=f(x,p) ha un solo attrattore per ogni valore del parametro p e per p=p1 l'attrattore è un equilibrio, mentre per p=p2>p1 l'attrattore è caotico. Nell'intervallo [p1,p2] possono esserci infinite biforcazioni locali.
+FALSO;La biforcazione di Hopf è una collisione tra due cicli.
+VERO;La biforcazione di Neimark-Sacker in un sistema a tempo continuo del terzo ordine riguarda un toro di sezione evanescente.
+VERO;La biforcazione flip riguarda il raddoppio del periodo di un ciclo.
+VERO;Una biforcazione nodo-sella che coinvolge un equilibrio asintoticamente stabile è sempre catastrofica.
+VERO;L'insieme invariante della mappa a "ferro di cavallo" contiene traiettorie sia di tipo omoclino che eteroclino.
+FALSO;Il ciclo che nasce per biforcazione di Hopf ha periodo degenere (zero o infinito).
+FALSO;Le biforcazioni catastrofiche sono tutte locali.
