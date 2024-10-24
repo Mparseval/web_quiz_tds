@@ -11,33 +11,58 @@
 <body>
     <div class="container">
         <h2 class="mt-5">Question {{ question_num }} of {{ total_questions }}</h2>
-        <!-- Progress Bar -->
-        <div class="progress mt-3">
-            <div class="progress-bar" role="progressbar" style="width: {{ progress }}%;" aria-valuenow="{{ question_num }}" aria-valuemin="0" aria-valuemax="{{ total_questions }}"></div>
-        </div>
+
+      
+
         {% if feedback %}
-            {% if feedback == 'Correct!' %}
-                <div class="alert alert-success mt-3" role="alert">
-                    {{ feedback }}
-                </div>
-            {% elif feedback == 'Incorrect!' %}
-                <div class="alert alert-danger mt-3" role="alert">
-                    {{ feedback }}
-                </div>
-            {% else %}
-                <div class="alert alert-info mt-3" role="alert">
-                    {{ feedback }}
-                </div>
-            {% endif %}
+            <div class="alert {{ 'alert-success' if feedback == 'Correct!' else 'alert-danger' }} mt-3" role="alert">
+                {{ feedback }}
+            </div>
         {% endif %}
+
         <div class="card mt-4">
             <div class="card-body">
-                <p class="card-text">{{ question }}</p>
+                <p class="card-text question-text">{{ question }}</p>
+
+                {% if answers[current_question] %}
+                    <!-- Display Previous Answer and Status -->
+                    <div class="alert {{ 'alert-success' if status == 'Correct' else 'alert-danger' }}" role="alert">
+                        You answered: <strong>{{ 'True' if user_answer == 'VERO' else 'False' }}</strong> - {{ status }}
+                    </div>
+                {% endif %}
+
                 <form method="post" class="text-center">
-                    <button type="submit" name="answer" value="VERO" class="btn btn-success btn-lg mr-3">True</button>
-                    <button type="submit" name="answer" value="FALSO" class="btn btn-danger btn-lg">False</button>
+                    <input type="hidden" name="question_number" value="{{ current_question }}">
+                    <button type="submit" name="answer" value="VERO" class="btn btn-success btn-lg mr-3"
+                        {% if answers[current_question] %} disabled {% endif %}>True</button>
+                    <button type="submit" name="answer" value="FALSO" class="btn btn-danger btn-lg"
+                        {% if answers[current_question] %} disabled {% endif %}>False</button>
                 </form>
+
+                <!-- Navigation Arrows -->
+                <div class="navigation mt-3">
+                    {% if current_question > 0 %}
+                        <a href="{{ url_for('quiz', question_number=current_question-1) }}" class="btn btn-secondary">&larr; Previous</a>
+                    {% endif %}
+                    {% if current_question < total_questions - 1 %}
+                        <a href="{{ url_for('quiz', question_number=current_question+1) }}" class="btn btn-secondary">Next &rarr;</a>
+                    {% endif %}
+                </div>
             </div>
+        </div>
+          <!-- Progress Tiles -->
+          <div class="progress-tiles mt-3">
+            {% for i in range(total_questions) %}
+                {% if answers[i] %}
+                    {% if answers[i]['status'] == 'Correct' %}
+                        <a href="{{ url_for('quiz', question_number=i) }}" class="tile correct">{{ i+1 }}</a>
+                    {% elif answers[i]['status'] == 'Incorrect' %}
+                        <a href="{{ url_for('quiz', question_number=i) }}" class="tile incorrect">{{ i+1 }}</a>
+                    {% endif %}
+                {% else %}
+                    <a href="{{ url_for('quiz', question_number=i) }}" class="tile unanswered">{{ i+1 }}</a>
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 </body>

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.question-text {
+    font-size: 1.75em;
+}
+
+.progress-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tile {
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.tile.correct {
+    background-color: green;
+}
+
+.tile.incorrect {
+    background-color: red;
+}
+
+.tile.unanswered {
+    background-color: grey;
+}
+
+.tile:hover {
+    opacity: 0.8;
+}
+
+.navigation .btn {
+    margin: 5px;
+}
