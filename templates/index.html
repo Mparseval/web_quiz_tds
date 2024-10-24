@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>True or False Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">Welcome to the True or False Quiz</h1>
+        <a href="{{ url_for('quiz') }}" class="btn btn-primary btn-lg mt-3">Start Quiz</a>
+    </div>
+</body>
+</html>

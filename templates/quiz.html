@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question {{ question_num }} of {{ total_questions }}</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-5">Question {{ question_num }} of {{ total_questions }}</h2>
+        <!-- Progress Bar -->
+        <div class="progress mt-3">
+            <div class="progress-bar" role="progressbar" style="width: {{ progress }}%;" aria-valuenow="{{ question_num }}" aria-valuemin="0" aria-valuemax="{{ total_questions }}"></div>
+        </div>
+        {% if feedback %}
+            {% if feedback == 'Correct!' %}
+                <div class="alert alert-success mt-3" role="alert">
+                    {{ feedback }}
+                </div>
+            {% elif feedback == 'Incorrect!' %}
+                <div class="alert alert-danger mt-3" role="alert">
+                    {{ feedback }}
+                </div>
+            {% else %}
+                <div class="alert alert-info mt-3" role="alert">
+                    {{ feedback }}
+                </div>
+            {% endif %}
+        {% endif %}
+        <div class="card mt-4">
+            <div class="card-body">
+                <p class="card-text">{{ question }}</p>
+                <form method="post" class="text-center">
+                    <button type="submit" name="answer" value="VERO" class="btn btn-success btn-lg mr-3">True</button>
+                    <button type="submit" name="answer" value="FALSO" class="btn btn-danger btn-lg">False</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
