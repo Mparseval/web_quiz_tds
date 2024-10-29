@@ -4,6 +4,11 @@
 
 A simple web-based True or False quiz application built with Flask. Users can answer a series of true or false questions and receive immediate feedback.
 
+## ready to use solution 
+
+visit the link  https://vercel-quiz.vercel.app/
+
+
 ## Features
 
 - Interactive quiz with instant feedback.
